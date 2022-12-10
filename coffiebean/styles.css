@@ -136,11 +136,33 @@ body {
   display: flex;
 
   align-items: center;
-  justify-content: space-around;
+  justify-content: center;
+  gap: 40px;
+
   flex-wrap: nowrap;
   overflow: hidden;
 }
+
+.section-press {
+  background-color: #fff0e6;
+  padding: 40px;
+}
 .img-press {
-  width: 250px;
-  height: auto;
+  width: 150px;
+  height: 75px;
+  object-fit: cover;
+
+  filter: grayscale(1);
+  border: 2px solid rgb(165, 163, 42);
+  border-radius: 5%;
+}
+.p-text-press {
+  text-decoration: underline;
+
+  text-align: center;
+  margin: 40px 0 20px 0;
+  color: #3f1900;
+  font-family: rubik;
+  font-size: 20px;
+  font-style: normal;
 }
