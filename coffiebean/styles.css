@@ -166,3 +166,53 @@ body {
   font-size: 20px;
   font-style: normal;
 }
+
+.mobile-heading {
+  padding: 100px 0px 300px 0px;
+  text-align: center;
+  background-color: #ffe6d0;
+  font-size: 70px;
+  color: rgb(148, 148, 148);
+  font-family: rubik;
+}
+
+.step {
+  font-family: rubik;
+
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 100px;
+  background-color: #ffe6d0;
+  padding: 40px 0px 80px 0px;
+}
+.step-number {
+  text-align: left;
+  font-size: 140px;
+  color: rgb(148, 148, 148);
+  font-family: rubik;
+}
+.step-heading {
+  font-size: 70px;
+  color: #170d00;
+  font-family: rubik;
+  margin-bottom: 20px;
+}
+.step-description {
+  text-align: start;
+  font-size: 24px;
+  color: #170d00;
+  font-family: rubik;
+
+  width: 540px;
+}
+
+.step-left {
+  margin-left: auto;
+}
+.step-right {
+  margin-right: auto;
+}
+.step-img-png {
+  height: 500px;
+}
