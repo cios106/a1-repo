@@ -232,7 +232,21 @@ body {
   width: 450px;
   height: 450px;
   border-radius: 50%;
-  background-color: #170d00;
+  background-color: #170d0015;
+  position: absolute;
+
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  z-index: -0;
+}
+.step-img::before {
+  content: "";
+  display: block;
+  width: 350px;
+  height: 350px;
+  border-radius: 50%;
+  background-color: #bb6a0051;
   position: absolute;
 
   top: 50%;
