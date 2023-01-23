@@ -156,18 +156,19 @@ body {
   border: 2px solid rgb(165, 163, 42);
   border-radius: 5%;
 }
-.p-text-press {
+.h3 {
   text-decoration: underline;
 
   text-align: center;
   margin: 40px 0 20px 0;
   color: #3f1900;
   font-family: rubik;
-  font-size: 20px;
+  font-size: 30px;
   font-style: normal;
 }
 
 .section-mobile {
+  border-bottom: 1px solid #3f1900;
 }
 
 .mobile-heading {
@@ -177,7 +178,7 @@ body {
   font-size: 70px;
   color: rgb(148, 148, 148);
   font-family: rubik;
-  border-top: 1px solid black;
+  border-top: 1px solid #3f1900;
 }
 
 .step {
@@ -253,4 +254,72 @@ body {
   left: 50%;
   transform: translate(-50%, -50%);
   z-index: -0;
+}
+.span-menu {
+  padding-top: 60px;
+  text-align: center;
+  font-size: 30px;
+}
+.h3 {
+  text-align: center;
+}
+.menu-container {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  grid-template-rows: 400px 200px 200px 800px;
+  justify-items: center;
+
+  padding-bottom: 80px;
+}
+.img-menu {
+  width: 350px;
+  height: 400px;
+  object-fit: cover;
+
+  border: 2px solid #ffede1;
+  border-radius: 10px;
+  grid-row: 1/2;
+}
+.menu-list {
+  list-style-type: none;
+  line-height: 30px;
+  font-weight: 750;
+  color: #3b3b3b;
+  background-color: #3f1900;
+  grid-row: 6 / 9;
+}
+
+.gourmet-menu-pre-heading {
+  display: inline-block;
+  background-color: #ffede1;
+  color: #3f1900;
+  margin: 5px 0px 5px 0px;
+  padding: 3px;
+  border-radius: 100px;
+  letter-spacing: 0.5px;
+}
+.gourmet-menu-heading {
+  margin: 0px 0px 15px 0px;
+  padding: 3px;
+  border-radius: 100px;
+  letter-spacing: 0.5px;
+  color: #3b3b3b;
+}
+.menu-icon {
+  stroke: #ff5e00;
+  width: 18px;
+  vertical-align: text-bottom;
+  margin-right: 10px;
+}
+
+.menu-card {
+  width: 400px;
+  height: 600px;
+  padding: 10px 10px 20px 10px;
+  border: 1px solid #bfbfbf;
+  background-color: white;
+  box-shadow: 10px 10px 5px #aaaaaa;
+}
+.img-menu-2 {
+  background-position: left top;
 }
